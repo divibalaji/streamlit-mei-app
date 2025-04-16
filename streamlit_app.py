@@ -636,21 +636,13 @@ if st.button("Predict"):
 from pyngrok import ngrok
 
 # Authenticate ngrok with your auth token
+ngrok.set_auth_token("2vlnWXWMdgCCYk89NEtCE4INpfm_3QTyPVwMZ2mc2mwAGctK3")
 
 # Open a tunnel on port 8501 for Streamlit
 public_url = ngrok.connect(8501)
 
 # Output the public URL
 st.write(f"Public URL: {public_url}")
-
-
-!streamlit run app.py &>/dev/null &
-
-
-!pip install shapash pyngrok
-
-
-from pyngrok import ngrok
 
 
 
