@@ -652,7 +652,6 @@ st.write(f"Public URL: {public_url}")
 
 from pyngrok import ngrok
 
-!ngrok config add-authtoken 2vlnWXWMdgCCYk89NEtCE4INpfm_3QTyPVwMZ2mc2mwAGctK3
 
 
 
