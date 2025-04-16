@@ -597,7 +597,6 @@ model_to_save = best_rf_original
 
 joblib.dump(model_to_save, 'heart_disease_model.pkl')
 
-%%writefile app.py
 import streamlit as st
 import numpy as np
 import joblib
