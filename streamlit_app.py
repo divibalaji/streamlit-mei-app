@@ -587,7 +587,6 @@ ConfusionMatrixDisplay(cm_dt_pca).plot()
 plt.title("Confusion Matrix - Decision Tree on PCA-Transformed Features")
 plt.show()
 
-!pip install streamlit pyngrok joblib
 
 
 import joblib
